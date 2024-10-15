@@ -1,0 +1,1 @@
+says:button = document.createElement("button");button.textContent="Skip Ratelimit";button.onclick = function(){localStorage.removeItem("postList");window.alert("Ratelimit reset.")};document.getElementById("ui").appendChild(button); 
